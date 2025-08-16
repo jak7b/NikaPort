@@ -1,3 +1,6 @@
+Made By AugmentedWill and kuko010/jak7b, But Licensed by creativemod.net.
+
+
 CreativeMode Mods License
 Version 1.0 – Effective 2025-08-11
 
