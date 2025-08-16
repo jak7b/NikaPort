@@ -1,9 +1,9 @@
-package net.kuko.ctrmod;
+package net.kuko.nikamod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class CtrModDataGenerator implements DataGeneratorEntrypoint {
+public class NikaModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

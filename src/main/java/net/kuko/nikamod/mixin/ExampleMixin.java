@@ -1,4 +1,4 @@
-package net.kuko.ctrmod.mixin;
+package net.kuko.nikamod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

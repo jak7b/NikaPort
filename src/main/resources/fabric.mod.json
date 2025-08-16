@@ -1,35 +1,37 @@
 {
 	"schemaVersion": 1,
-	"id": "ctrmod",
+	"id": "nikamod",
 	"version": "${version}",
-	"name": "CtrMod",
+	"name": "The Devil Fruits",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"AugmentedWill",
+		"kuko010"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/ctrmod/icon.png",
+	"license": "MIT",
+	"icon": "assets/nikamod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.kuko.ctrmod.CtrMod"
+			"net.kuko.nikamod.NikaMod"
 		],
 		"fabric-datagen": [
-			"net.kuko.ctrmod.CtrModDataGenerator"
+			"net.kuko.nikamod.NikaModDataGenerator"
 		]
 	},
 	"mixins": [
-		"ctrmod.mixins.json"
+		"nikamod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"owo-lib": ">=0.11.2"
 	},
 	"suggests": {
 		"another-mod": "*"
