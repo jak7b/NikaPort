@@ -19,6 +19,9 @@
 		"main": [
 			"net.kuko.nikamod.NikaMod"
 		],
+		"client": [
+			"net.kuko.nikamod.NikaModClient"
+		],
 		"fabric-datagen": [
 			"net.kuko.nikamod.NikaModDataGenerator"
 		]
